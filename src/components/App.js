@@ -47,8 +47,7 @@ class App extends Component {
 				   		if(item.percent > 0)
 				   		{
 				   			return(
-				   				//Conditional statement in the className of below div to give callName="bg-pink"
-				   				//if the percent >= 90 else className = "" 
+				   				//change className depending on precentage
 				   				<div key={index} className={}>
 					   				<div className="name">
 					   					 //Write code to display name
